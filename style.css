@@ -34,3 +34,11 @@ section {
   gap: 2px;
   padding: 2px;
 }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  margin: 100px;
+}
