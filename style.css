@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  border: 1.5px solid black;
+}
+#titulo {
+  
+}
+body {
+  margin: 0;
+  padding: 5px;
+  background-image: url('fundo.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+header {
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 20px;
+   -webkit-text-stroke: 1px black; /* Cria uma borda fininha que engrossa a letra */
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.Pizzas {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  gap: 2px;
+  padding: 2px;
+}
