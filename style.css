@@ -27,6 +27,11 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+@media (min-width: 768) {
+section {
+grid-template-columns: repeat(4, 1fr)
+}
+}
 .Pizzas {
   width: 130px;
   height: 150px;
