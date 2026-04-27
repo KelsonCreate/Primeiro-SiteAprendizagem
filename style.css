@@ -27,10 +27,10 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-@media (min-width: 768) {
-section {
-grid-template-columns: repeat(4, 1fr)
-}
+@media (min-width: 768px) {
+  section {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
 .Pizzas {
   width: 130px;
@@ -38,6 +38,14 @@ grid-template-columns: repeat(4, 1fr)
   object-fit: cover;
   gap: 2px;
   padding: 2px;
+}
+@media (min-width: 768px) {
+  .Pizzas {
+    width: 200px;
+    height: 220px;
+    gap: 3px;
+    padding: 3px;
+  }
 }
 nav {
   display: flex;
