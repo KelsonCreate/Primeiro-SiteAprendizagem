@@ -41,8 +41,8 @@ section {
 }
 @media (min-width: 768px) {
   .Pizzas {
-    width: 200px;
-    height: 220px;
+    width: 250px;
+    height: 270px;
     gap: 3px;
     padding: 3px;
   }
