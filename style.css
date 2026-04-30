@@ -56,7 +56,7 @@ footer {
 }
 
 /* DESKTOP */
-@media (min-width: 1024px) {
+@media (min-width: 1024x) {
   header {
     font-size: 80px;
     -webkit-text-stroke: 2px black;
@@ -71,8 +71,8 @@ footer {
   #pedi {
     grid-column: span 2;
   }
-  svg {
+  a {
     width: 60px;
-    height: 60px;
+    height: auto;
   }
 }
