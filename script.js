@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APRENDENDO WEB</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="princp">
+    <img src="logodapizzaria.png" alt="LogoDaPizzaria" loading="lazy">
+    <h1 id="titulo">PIZZARIA DA HORA</h1>
+    </div>
+    <em>Pizza Boa ? Só Aqui !</em>
+    <nav>
+    <a href="https://wa.me/5585987638118" target="_blank">
+   Faça Seu Pedido no nosso WhatsApp
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 448 511.2">
+  <path fill="#25d366" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.4 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-5.5-2.8-23.2-8.5-44.2-27.1-16.4-14.6-27.4-32.7-30.6-38.2-3.2-5.6-.3-8.6 2.4-11.3 2.5-2.4 5.5-6.5 8.3-9.7 2.8-3.3 3.7-5.6 5.5-9.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.4-29.8-17-41.1-4.5-10.9-9.1-9.4-12.4-9.6l-10.6-.2c-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.3 5.7 23.5 9.2 31.6 11.8 13.3 4.2 25.4 3.6 35 2.2 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+</svg>
+</a>
+
+  </nav>
+  </header>
+  <hr>
+  <main>
+  <h3>Mais Pedidos Da Casa !!</h3>
+  <section>
+    <article>
+      <img class="Pizzas"src="Pizzadecalabresa.jpg" alt="fotodePizza" loading="lazy">
+      <p>Pizza De Calabresa Por <mark>19,99R$</mark></p>
+    </article>
+    <article>
+      <img class="Pizzas" src="Pizzadefrango.jpg" alt="fotodePizza2" loading="lazy">
+      <p>Pizza De Frango Com Catupiry Por <mark>20,00R$</mark></p>
+    </article>
+    <article>
+      <img class="Pizzas" src="Pizzadequeijo.jpg" alt="fotodePizza3" loading="lazy">
+      <p>Pizza De 4 Queijo Por <mark>17,00R$</mark></p>
+    </article>
+    <article>
+      <img class="Pizzas" src="Pizzadechocolate.jpg" alt="fotodePizza4" loading="lazy">
+      <p>Pizza De Chocolate Por <mark>22,99R$</mark></p>
+    </article>
+  </section>
+    <h3>Combos Da Casa</h3>
+    <section>
+      <article>
+        <img class="Pizzas" src="combo.jpg" alt="fotodoCombo" loading="lazy">
+        <p>Combo Pequeno Com Pizza Metade frango e portuguesa com 1 refrigerante de 1<abbr title="Litro">L</abbr> por <mark>20,99R$</mark></p>
+      </article>
+      <article>
+        <img class="Pizzas" src="megacombo.jpg" alt="fotodomegacombo" loading="lazy">
+        <p>Pizza Gigante (4 Sabores de sua preferencia), 1 refrigerante de 2L por apenas <mark>69,99R$</mark></p>
+      </article>
+    </section>
+  </main>
+  <h2>Peça Pelo Site</h2>
+  <form>
+    <label for="pedi">Pedido: </label>
+    <input type="text" id="pedi">
+    <button type="submit">Enviar Pedido</button>
+  </form>
+  <footer>
+      <small>Kelson Olimpio&copy 23.04.2026</small>
+    </footer>
+  <hr>
+  <script src="script.js"></script>
+</body>
+</html>
