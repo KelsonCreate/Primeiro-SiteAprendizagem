@@ -3,7 +3,6 @@ body {
   padding: 10px;
   background-image: url('fundo.jpg');
   background-size: cover;
-  background-attachment: fixed; /* Mantém o fundo parado ao rolar */
   font-family: Arial, sans-serif;
 }
 #princp {
@@ -60,7 +59,7 @@ a {
 }
 
 /* DESKTOP */
-@media (min-width: 1024x) {
+@media (min-width: 1024px) {
   header {
     font-size: 80px;
     -webkit-text-stroke: 2px black;
@@ -73,7 +72,6 @@ a {
     max-width: 300px; /* Tamanho confortável para 5 colunas */
   }
   
-  }
   a {
     width: 60px;
     height: auto;
