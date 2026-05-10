@@ -1,10 +1,16 @@
-botao.addEventListener("click", function () {
-  const pedido = document.querySelector('#pedi').value.trim();
-  if (!pedido) {
-    alert("Digite seu pedido antes de enviar!");
-    return;
-  }
-  const msg = document.createElement('p');
+const btn = document.getElementById("btn");
+const menu = document.getElementById("menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});
+
+const form = document.querySelector('form');
+const msg = document.createElement('p');
 msg.textContent = "✅ Pedido enviado com sucesso!";
-document.querySelector('form').appendChild(msg);
+msg.style.color = "green"; // Opcional: deixar a cor verde
+
+form.addEventListener('submit', (evento) => {
+  evento.preventDefault(); // Impede a página de recarregar
+  form.appendChild(msg);   // Mostra a mensagem só agora
 });
