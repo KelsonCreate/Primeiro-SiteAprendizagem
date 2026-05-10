@@ -1,3 +1,43 @@
+#menu {
+  display: none; 
+  background: #FFD99F;
+  padding: 10px;        /* Diminuído de 20px para 10px */
+  width: 180px;         /* Define uma largura fixa menor */
+  border-radius: 8px;   /* Deixa as bordas arredondadas */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Sombra leve */
+  list-style: none;     /* Remove as bolinhas da lista */
+}
+
+#menu.active {
+  display: block;
+  position: absolute;   /* Faz o menu "flutuar" sobre o conteúdo */
+  z-index: 10;          /* Garante que fique por cima de tudo */
+}
+
+#btn {
+  color: white;
+  font-size: 20px;      /* Botão um pouco menor */
+  cursor: pointer;
+  border: 1px solid #FFD896;
+  background: #FFB759;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Ajuste no #princp para mobile */
+#princp img {
+  width: 80px; /* Menor no celular para o título caber ao lado */
+  height: auto;
+}
+
+#menu li a {
+  font-size: 18px;      /* Tamanho mais equilibrado */
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 0;
+}
+
 body {
   margin: 0;
   padding: 10px;
@@ -5,10 +45,15 @@ body {
   background-size: cover;
   font-family: Arial, sans-serif;
 }
+
 #princp {
-display: flex;
-gap: 8px;  
+  display: flex;
+  gap: 15px;
+  align-items: center;    /* Alinha verticalmente */
+  justify-content: center; /* Centraliza na tela */
 }
+
+
 
 hr {
   border-color: goldenrod;
