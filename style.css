@@ -26,7 +26,7 @@
 
 /* Ajuste no #princp para mobile */
 #princp img {
-  width: 80px; /* Menor no celular para o título caber ao lado */
+  width: 100px; /* Menor no celular para o título caber ao lado */
   height: auto;
 }
 
