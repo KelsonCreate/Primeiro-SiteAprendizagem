@@ -1,22 +1,22 @@
 #menu {
   display: none; 
   background: #FFD99F;
-  padding: 10px;        /* Diminuído de 20px para 10px */
-  width: 180px;         /* Define uma largura fixa menor */
-  border-radius: 8px;   /* Deixa as bordas arredondadas */
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Sombra leve */
-  list-style: none;     /* Remove as bolinhas da lista */
+  padding: 10px;
+  width: 180px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  list-style: none;
 }
 
 #menu.active {
   display: block;
-  position: absolute;   /* Faz o menu "flutuar" sobre o conteúdo */
-  z-index: 10;          /* Garante que fique por cima de tudo */
+  position: absolute;
+  z-index: 10;
 }
 
 #btn {
   color: white;
-  font-size: 20px;      /* Botão um pouco menor */
+  font-size: 20px;
   cursor: pointer;
   border: 1px solid #FFD896;
   background: #FFB759;
@@ -24,14 +24,13 @@
   padding: 5px 10px;
 }
 
-/* Ajuste no #princp para mobile */
 #princp img {
-  width: 100px; /* Menor no celular para o título caber ao lado */
+  width: 113px;
   height: auto;
 }
 
 #menu li a {
-  font-size: 18px;      /* Tamanho mais equilibrado */
+  font-size: 18px;
   text-decoration: none;
   color: white;
   display: block;
@@ -49,8 +48,8 @@ body {
 #princp {
   display: flex;
   gap: 15px;
-  align-items: center;    /* Alinha verticalmente */
-  justify-content: center; /* Centraliza na tela */
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -62,23 +61,23 @@ hr {
 header {
   text-align: center;
   font-family: 'Parisienne', cursive;
-  font-size: 18px; /* Tamanho base mobile */
+  font-size: 18px;
   -webkit-text-stroke: 1px black;
   margin-bottom: 20px;
 }
 
 section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas no mobile para não ficar apertado */
+  grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   justify-items: center;
 }
 
 .Pizzas {
   width: 100%;
-  max-width: 250px; /* Garante que a imagem não cresça infinitamente */
+  max-width: 250px;
   height: auto;
-  aspect-ratio: 1 / 1; /* Mantém a imagem quadrada */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -114,7 +113,7 @@ a {
     gap: 20px;
   }
   .Pizzas {
-    max-width: 300px; /* Tamanho confortável para 5 colunas */
+    max-width: 300px;
   }
   
   a {
